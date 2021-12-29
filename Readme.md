@@ -152,41 +152,5 @@ pip install opencv-python==3.4.2.16
 pip install opencv-contrib-python==3.4.2.16
 ```
 
-## Edited on 4th June, 2020 After abundance of request and observation following changes has been made
-* The Dataset required for training the model is available inside Dataset Directory. Also, the trained model has been made available with the consent of all the sakeholders for totally Non-Commercial purpose only.
-* This project now works on python 3.7x interpreter platform as well fully tested as of the above mentioned date.
-* The complexity of step 4 has been reduced, the file is available inside the source code folder itself and if you are okay to not use winGuiAuto functions globally then you can skip this step.
-* The minimize window is now present with the window border so that the application can be moved and the mask window can be placed properly.
-
-*Concerning to the students, it is highly appreciable and encouraging if you are willing to build your own datasets as the key should be on learning and not just downloading/copy pasting to just get rid of the submissions.*
-
-## Built With
-
-* [Sublime](https://www.sublimetext.com/3) - A sophisticated text editor for code, markup and prose. 
-* [QT Designer](https://build-system.fman.io/qt-designer-download) - Qt tool for designing and building graphical user interfaces. 
 
 
-## Demonstrations
-
-* Take a look at the working project demonstration. Click on the image to view the complete video
-
-
-[![Sign Language Recognition Using Hand Gestures](https://i.ytimg.com/vi/vXSTZNEkHlg/maxresdefault.jpg)](https://youtu.be/vXSTZNEkHlg)
-
-
-## Authors
-
-* **Shadab Shaikh** - *Synopsis preparation, Requirement specification, Detection of object through camera, ASL character generation through hand gestures, Sentence formation, Modelling of project, Exporting content, Custom gesture generation with image processing Using SIFT, Gesture viewer, TTS assistance.*  - [shadabsk](https://github.com/shadabsk)
-
-* **Obaid Kazi** - *Requirement specification, Detection of object through camera, ASL character generation through hand gestures, Sentence formation, Exporting content, Integrating modules into GUI, TTS assistance.'* 	- [ObaidKazi](https://github.com/ObaidKazi)
-
-* **Khan Mohammed Rehan** - *Synopsis preparation, Requirement specification, Sentence formation, Custom gesture generation with image processing Using SIFT*  - [rehannk](https://github.com/rehannk)
-
-* **Mohd Adnan Ansari** - *Requirement specification, Modelling of project, Creating the complete front end of the application* - [mohdadnan0000](https://github.com/mohdadnan0000)
-
-
-## Acknowledgments
-
-* The template of readme.md was taken from [PurpleBooth](https://github.com/PurpleBooth)
-* **Mr. Muhammed Salman Shamsi** *Asst. Prof Kalsekar Technical campus* - For his guidance.
-* **Mr. Rupesh Poudel** [Repo](https://github.com/rrupeshh/Simple-Sign-Language-Detector)- For his assistance and permission to use his existing application. 
