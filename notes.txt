@@ -1,0 +1,61 @@
+Problem stmt
+To Recognize hand gestures of Indian sign Language for the speech impaired using Machine Learning and Convolutional Neural Networks.
+
+
+METHODOLOGY
+
+The first step of the proposed system is to collect data.Many researchers have used sensors or cameras to capture the hand movements. For our system, we make use of the web camera to shoot the hand gestures.The images undergo a series of processing operations whereby the backgrounds are detected and eliminated using the colour extraction algorithm HSV(Hue,Satura- tion,Value). Segmentation is then performed to detect the region of the skin tone. Using the morphological operations, a mask is applied on the images and a series of dilation and erosion using elliptical kernel are executed . With openCV, the images obtained are amended to the same size so there is no difference between images of different gestures . Our dataset has 2000 American sign gesture images out of which 1600 images are for training and the rest 400 are for testing purposes. It is in the ratio 80:20. Binary pixels are extracted from each frame, and Convolutional Neural Network is applied for training and classification. The model is then evaluated and the system would then be able to predict the alphabets.
+
+Data Collection Image capture with web camera
+
+Data Collection Image capture with web camera
+
+Image Processing
+
+Backgrounds detected and eliminated with HSV
+
+Morphological operations are performed and masks are applied.
+
+Segmentation of hand gesture
+
+Image is resized
+
+Feature Extraction
+
+Binary pixels
+
+Classification
+
+Evaluation
+
+The precision, recall and F- measures for each class are determined.
+
+Evaluation
+
+The precision, recall and F- measures for each class are determined.
+
+Using CNN of 3 layers:
+
+Three Convolutional layers with ReLU as activation function
+
+Three layers of pooling
+
+Fully connected layer with Softmax as activation
+
+function
+
+Prediction
+
+The system predicts input gesture of user and displays result.
+
+Prediction
+
+The system predicts input gesture of user and displays result.
+
+PPT methodolgy
+The first stage is to segment the skin part from the image, as the remaining part can
+be regarded as noise w.r.t the character classification problem.
+• The second stage is to extract relevant features from the skin segmented images
+which can prove significant for the next stage i.e learning and classification.
+• The third stage as mentioned above is to use the extracted features as input into various supervised learning models for training and then finally use the trained models
+for classification.
